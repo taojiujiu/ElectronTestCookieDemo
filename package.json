@@ -1,0 +1,15 @@
+{
+  "name": "TestCookieDemo",
+  "version": "0.1.0",
+  "main": "main.js",
+  "description": "It is test cookie demo.",
+
+  "devDependencies": {
+    "electron-builder": "^19.27.7"
+  },
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder -m"
+  }
+}
